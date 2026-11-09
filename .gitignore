@@ -1,0 +1,21 @@
+# Vietiniai nustatymai ir bibliotekos
+.env
+.env.*
+!.env.example
+vendor/
+
+# Ataskaita ir destytojo pateikta medziaga lieka vietiniame aplanke
+/ataskaita/
+/saltiniai/
+
+# Laikini failai ir redaktoriu nustatymai
+*.log
+*.tmp
+*.bak
+~$*
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

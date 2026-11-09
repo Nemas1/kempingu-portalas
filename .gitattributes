@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.mdzip binary
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary

@@ -1,0 +1,6 @@
+{
+  "name": "studijos/kempingu-portalas",
+  "description": "Mokomasis PHP ir MySQL kempingų portalas",
+  "require": {"php": "^8.4", "phpmailer/phpmailer": "^7.0"},
+  "config": {"sort-packages": true, "platform": {"php": "8.4.0"}}
+}

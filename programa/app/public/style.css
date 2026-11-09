@@ -1,0 +1,180 @@
+/* Bendras puslapis */
+body {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    padding: 12px 0;
+    border-bottom: 2px solid #49634e;
+}
+
+header > div,
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+header > div {
+    justify-content: space-between;
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    color: #3b5d42;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 16px 0;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+.card,
+.message,
+details {
+    padding: 12px 0;
+    margin: 14px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Formos */
+label {
+    display: block;
+    margin: 12px 0;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 330px;
+    max-width: 100%;
+    margin-top: 4px;
+    padding: 7px;
+    font: inherit;
+    border: 1px solid #aaa;
+}
+
+input[type="number"] {
+    width: 90px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+textarea {
+    width: 500px;
+    min-height: 90px;
+}
+
+button {
+    padding: 7px 13px;
+    margin: 5px 8px 5px 0;
+    font: inherit;
+    color: white;
+    background: #49634e;
+    border: 1px solid #49634e;
+    cursor: pointer;
+}
+
+.inline {
+    display: inline;
+}
+
+nav button {
+    padding: 0;
+    margin: 0;
+    color: #3b5d42;
+    background: none;
+    border: 0;
+    text-decoration: underline;
+}
+
+/* Lentelės ir pranešimai */
+table {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 9px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.user-role select {
+    width: 210px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.notice,
+.error {
+    padding: 10px;
+    margin: 12px 0;
+}
+
+.notice {
+    background: #edf3e9;
+}
+
+.error {
+    color: #922d27;
+    background: #fbeeed;
+}
+
+.text {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.small,
+.muted {
+    font-size: 14px;
+    color: #666;
+}
+
+summary {
+    cursor: pointer;
+}
